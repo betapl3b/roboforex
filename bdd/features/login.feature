@@ -8,4 +8,4 @@ Feature: User login
     Given existing user account
     And the user is on the login page
     When the user logs in with valid credentials of the existing account
-    Then the user should be redirected to the profile page
+    Then correct user account number is shown on trading page
